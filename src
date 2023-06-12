@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TGOnlineNews</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#gaming" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GAMING</a>
+    <a href="#tech" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TECH</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#gaming" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">GAMING</a>
+  <a href="#tech" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TECH</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+    <div class="mySlides w3-display-container w3-center">
+    <img src="slide1.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Breaking News</h3>
+      <p><b>Latest updates on gaming and technology</b></p>
+    </div>
+  </div>
+
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slide2.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Stay Informed</h3>
+      <p><b>Get the latest news and insights</b></p>
+    </div>
+  </div>
+
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slide3.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Connect with Us</h3>
+      <p><b>Reach out to us for inquiries and collaborations</b></p>
+    </div>
+  </div>
+
+  <!-- The Gaming Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="gaming">
+    <h2 class="w3-wide">GAMING</h2>
+    <p class="w3-opacity"><i>Stay updated with the latest gaming news and reviews</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p><strong>Featured Game 1</strong></p>
+        <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/179E/production/_130064060_starfield_03_exploringplanets.png.webp" class="w3-round w3-margin-bottom" alt="Game 1" style="width:60%">
+        <p>Starfield</p>
+      </div>
+      <div class="w3-third">
+        <p><strong>Featured Game 2</strong></p>
+        <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/17346/production/_130064059_66ec08aa-f166-48d5-af5f-d7f5148fb418.jpg.webp" class="w3-round w3-margin-bottom" alt="Game 2" style="width:60%">
+        <p>Cyberpunk 2077</p>
+      </div>
+      <div class="w3-third">
+        <p><strong>Featured Game 3</strong></p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxRk0q35ra9AklLh9_1dQEtRSyCi5aTFMb-n3rQPrJRbXw9ofuqRUzZNnGi55Vv7z9z0U&usqp=CAU" class="w3-round" alt="Game 3" style="width:60%">
+        <p>Surprise Game</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tech Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="tech">
+    <h2 class="w3-wide">TECH</h2>
+    <p class="w3-opacity"><i>Discover the latest tech trends and innovations</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p><strong>Featured Tech 1</strong></p>
+        <img src="https://informationage-production.s3.amazonaws.com/uploads/2022/10/how-can-technology-design-be-made-more-inclusive.jpeg" class="w3-round w3-margin-bottom" alt="Tech 1" style="width:60%">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="w3-third">
+        <p><strong>Featured Tech 2</strong></p>
+        <img src="https://www.analyticsinsight.net/wp-content/uploads/2021/07/Technology-Can-Boost-Your-Business-Productivity.jpg" class="w3-round w3-margin-bottom" alt="Tech 2" style="width:60%">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="w3-third">
+        <p><strong>Featured Tech 3</strong></p>
+        <img src="https://www.homecareinsight.co.uk/2020/07/connected-technology.jpg" class="w3-round" alt="Tech 3" style="width:60%">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Get in touch with us</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> London, UK<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +44 7465468888<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@example.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
